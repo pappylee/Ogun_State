@@ -1,54 +1,82 @@
-body{
-    font-family: 'roboto', sans-serif;
+/* COMMON STYLES */
+.flex {
+  display: flex;
 }
-.container{
-    max-width: 1400px;
-    width: 1400px;
-    margin: 0 auto;
+
+body {
+  font-family: 'roboto', sans-serif;
 }
-.cta{
-    background: none;
-    padding: 10px 30px;
-    border: 1px solid #fff;
-    text-transform: capitalize;
-    color: #fff;
-    font-size: 1.4rem;
+.container {
+  max-width: 1400px;
+  width: 90%;
+  margin: 0 auto;
 }
-.hero{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-    url('./access/vashishtha-jogi-66778-unsplash.jpg');
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
+.cta {
+  background: none;
+  padding: 10px 30px;
+  border: 1px solid #fff;
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 1.4rem;
 }
-.navigation{
-    display: flex;
-    align-items: center;
-    padding-top: 30px;
-    color: #fff;
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('./assets/vashishtha-jogi-66778-unsplash.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
 }
-.navigation h1{
-    margin-right: auto;
+.navigation {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  color: #fff;
 }
-.navigation span{
-    margin-left: 13px;
+.navigation h1 {
+  margin-right: auto;
 }
-.welcome{
-    margin-top: 180px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #fff;
+.navigation span {
+  margin-left: 13px;
 }
-.welcome h2{
-    font-size: 2.5rem;
-    margin-bottom: 0;
+.welcome {
+  margin-top: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
 }
-.welcome h4{
-    margin-top: 8px;
-    margin-bottom: 8px;
-    font-size: 1.7rem;
+.welcome h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0;
 }
-.welcome .cta{
-    margin-top: 20px;
+.welcome h4 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 1.7rem;
+}
+.welcome .cta {
+  margin-top: 20px;
+}
+
+/* STATS SECTION */
+.stats {
+  margin-top: 80px;
+}
+
+.stats .container {
+  justify-content: space-between;
+}
+
+.stat {
+  text-align: center;
+  color: #262f75;
+}
+
+.stat h4 {
+  font-size: 2.7rem;
+  margin: 0 0 0.4rem;
+}
+
+.stat p {
+  font-size: 1.4rem;
 }
