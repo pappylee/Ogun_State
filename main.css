@@ -3,14 +3,18 @@
   display: flex;
 }
 
-body {
-  font-family: 'roboto', sans-serif;
+.flex-column {
+  flex-direction: column;
 }
-.container {
-  max-width: 1400px;
-  width: 90%;
-  margin: 0 auto;
+
+.title {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 1.7rem;
+  text-align: center;
+  color: #262f75;
 }
+
 .cta {
   background: none;
   padding: 10px 30px;
@@ -19,6 +23,28 @@ body {
   color: #fff;
   font-size: 1.4rem;
 }
+
+.cta-main {
+  background: #fa6100;
+  text-transform: uppercase;
+}
+
+.select {
+  width: 210px;
+  background: #fff;
+  border: 0;
+  box-shadow: 0px 0px 14px 2px rgba(161, 161, 161, 1);
+}
+
+body {
+  font-family: 'roboto', sans-serif;
+}
+.container {
+  max-width: 1400px;
+  width: 90%;
+  margin: 0 auto;
+}
+
 .hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('./assets/vashishtha-jogi-66778-unsplash.jpg');
@@ -50,9 +76,6 @@ body {
   margin-bottom: 0;
 }
 .welcome h4 {
-  margin-top: 8px;
-  margin-bottom: 8px;
-  font-size: 1.7rem;
 }
 .welcome .cta {
   margin-top: 20px;
@@ -79,4 +102,20 @@ body {
 
 .stat p {
   font-size: 1.4rem;
+}
+
+/* FORM TOUR */
+.tour-form {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.tour-form h4 {
+  text-transform: uppercase;
+  margin-bottom: 80px;
+}
+
+.tour-form form {
+  margin-top: 35px;
+  justify-content: space-between;
 }

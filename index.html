@@ -9,7 +9,7 @@
       href="https://fonts.googleapis.com/css?family=roboto"
     />
     <link rel="stylesheet" href="./normalize.css" />
-    <link rel="stylesheet" href="./main.css" />    
+    <link rel="stylesheet" href="./main.css" />
     <title>Experience Ogun State</title>
   </head>
   <body>
@@ -18,9 +18,7 @@
       <div class="container">
         <div class="navigation">
           <h1>Experience Ogun State</h1>
-          <nav>
-            <span>Home</span><span>Contacts</span><span>Book Now</span>
-          </nav>
+          <nav><span>Home</span><span>Contacts</span><span>Book Now</span></nav>
         </div>
         <div class="welcome">
           <h2>Ogun is a wonderful state</h2>
@@ -34,17 +32,36 @@
     <section class="stats">
       <div class="container flex">
         <div class="stat">
-          <h4>5+ years</h4>
+          <h4 class="title">5+ years</h4>
           <p>We successfully organize tours</p>
         </div>
         <div class="stat">
-          <h4>15 723</h4>
+          <h4 class="title">15 723</h4>
           <p>tourists enjoyed our tours</p>
         </div>
         <div class="stat">
-          <h4>97%</h4>
+          <h4 class="title">97%</h4>
           <p>said they would definetly come back</p>
         </div>
+      </div>
+    </section>
+
+    <section class="tour-form">
+      <div class="container flex flex-column">
+        <h4 class="title">Let's find a tour for you</h4>
+        <form class="flex">
+          <select class="select">
+            <option value="morning">Morning</option>
+            <option value="afternoon">Afternoon</option>
+            <option value="night">Night</option>
+          </select>
+          <select class="select">
+            <option value="swimming">Swimming</option>
+            <option value="hiking">Hiking</option>
+          </select class="select">
+          <input type="date" id="start" name="trip-start"  class="select"/>
+          <button class="cta cta-main">Book now</button>
+        </form>
       </div>
     </section>
   </body>
